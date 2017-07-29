@@ -5,18 +5,55 @@
 	<title>Day Programs for Adults</title>
 	<!-- CSS CDN for Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel='stylesheet' href='./index.css'>
 </head>
 <body>
-	<div class="container" id="background">
+	<div id="background">
+		<div class="container-fluid" id="header">
+			<div class="row">
+				<div class="col-sm-offset-2 col-sm-4" align="center">
+					<a href='#'><img class="img-responsive" id="logo" src="./images/logo.png" alt="Adult Day Services Logo"></a>
+				</div>
+				<div class="col-sm-4" align="center">
+					<h2 class="text-uppercase">Call us today!</h2>
+					<h1><a href="#"><span class="glyphicon glyphicon-earphone"></span> 414.232.9059</a></h1>
+					<p><a href="#">info@adultdaysewi.com</a></p>
+					<p>344 S. Curtis Rd., West Allis, WI 53214</p>
+				</div>
+			</div>
+		</div>
 
-
-
-
-
-
+		<nav id="nav" class="navbar navbar-default">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li class="active text-uppercase"><a href="#">home</a></li>
+		        <li class="dropdown text-uppercase"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Our Program</a>
+			        <ul class="dropdown-menu">
+			          <li class="text-uppercase"><a href="#">Curtis Center</a></li>
+			          <li class="text-uppercase"><a href="#">Wil-O-Way Grant</a></li>
+			          <li class="text-uppercase"><a href="#">Wisconsin Center</a></li>
+			          <li class="text-uppercase"><a href="#">Riverview</a></li>
+			        </ul>
+			      </li>
+		        <li class="text-uppercase"><a href="#">gallery</a></li>
+		        <li class="text-uppercase"><a href="#">contact us</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		
 	</div>
 	<!-- Javascript CDNs for Bootstrap -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="./index.js"></script>
 </body>
 </html>

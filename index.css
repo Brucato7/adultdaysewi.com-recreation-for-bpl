@@ -1,0 +1,54 @@
+#background{
+	background: #fff url('./images/background-img-repeat.png') repeat center center;
+	width: 100%;
+}
+
+#header{
+	background-color: #fff;
+	padding: 15px;
+}
+
+#nav {
+	background-color: #6f3996;
+}
+
+.navbar-default .navbar-nav>li>a {
+	margin: 5px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+	background-color: #3698d6;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: #3698d6;
+	color: #fff;
+}
+
+ul.nav>li.dropdown>ul.dropdown-menu {
+	background-color: #6f3996;
+}
+
+.dropdown-menu>li>a {
+	margin: 5px;
+	font-size: 16px;
+	color: #fff;
+}
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+	background-color: #3698d6;
+}
+
+nav.navbar>div.container {
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	margin-top: -1px;
+}
