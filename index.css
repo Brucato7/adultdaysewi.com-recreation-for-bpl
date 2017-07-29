@@ -58,9 +58,18 @@ nav.navbar>div.container {
 
 .navbar-nav>li>.dropdown-menu {
 	margin-top: -1px;
+	border: none;
+	box-shadow: none;
 }
 
 div.carousel-inner {
 	border-top: solid 5px #3698d6;
 	border-bottom: solid 5px #3968d6;
+	box-shadow: 0px 1px 5px #888;
+}
+
+#content-div {
+	width: 75%;
+	background-color: #fff;
+	box-shadow: 0px 0px 15px #000;
 }
