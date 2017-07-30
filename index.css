@@ -73,3 +73,43 @@ div.carousel-inner {
 	background-color: #fff;
 	box-shadow: 0px 0px 15px #000;
 }
+
+#contactDiv {
+	background-color: #3698d6;
+	padding: 20px 10px;
+}
+
+#footer {
+	background-color: #6f3996;
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 0px 0px 0px;
+}
+
+#footerContact {
+	background-color: #3698d6;
+	padding:10px;
+}
+
+#footerNav .navbar-default {
+	background-color: #6f3996;
+	border: none;
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+}
+
+#footerNav .navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+#footerNav .navbar-default .navbar-nav>li>a:focus,
+#footerNav .navbar-default .navbar-nav>li>a:hover {
+	background-color: #6f3996;
+	color: #3698d6;
+}
+
+#copyright {
+	background-color: #fff;
+	font-size: 12px;
+	padding: 20px;
+}
